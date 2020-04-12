@@ -48,3 +48,12 @@ new Vuex.store()
 //main.js中将vuex实例挂载到vue对象上 
 new Vue({store})
 ```
+
+## vuex案例实操
+### 业务目标
+- 制作一个需要账号登录的课程学习项目
+- 不同的课程需要不同的会员等级，实现购买会员功能，课程分享
+### 功能
+- 通过state.userInfo控制用户登录路由限制
+- 多组件共享state.useStatus和state.vipLevel状态
+- 多组件修改state.useStatus和vipLevel
